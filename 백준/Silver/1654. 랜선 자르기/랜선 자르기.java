@@ -22,7 +22,7 @@ public class Main {
 				max = arr[i];
 			}
 		}
-		max ++;
+        max++;
 		
 		long min = 0;
 		long mid = 0;
