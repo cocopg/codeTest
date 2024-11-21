@@ -4,7 +4,7 @@ function solution(x) {
     for(let i=0;i<num.length;i++){
         add += Number(num[i]);
     }
-    var answer = (x%add===0?true:false);
+    var answer = x % add===0;
     
     return answer;
 }
